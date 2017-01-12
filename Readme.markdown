@@ -18,7 +18,7 @@ The save plugin can be used in your [Corona](https://coronalabs.com/products/cor
 
 ### Functions
 
-##### [save.init()](save.markdown)
+##### [save.init()](init.markdown)
 
 ##### [save.load()](load.markdown)
 
