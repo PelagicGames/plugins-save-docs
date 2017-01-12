@@ -13,6 +13,8 @@
 
 This function is used to load data from the save file.  The data is then available in the [save.data](data.markdown) table.
 
+Note that at load time, if the save file has been tampered with, an alert dialog will be shown and the save data will be deleted. This is to prevent cheaters/hackers from tampering with save data.
+
 
 ## Syntax
 
