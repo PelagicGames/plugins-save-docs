@@ -25,7 +25,7 @@ _[String](https://docs.coronalabs.com/api/type/String.html)._ The save file.  Fi
 _[Number](https://docs.coronalabs.com/api/type/Number.html)._ The save file version, which is specific to the application.  Increment this if the data contained in the save file is modified in a new application version and you need to add version-specific handling.
 
 ##### crypto_key <small>(required)</small>
-_[String](https://docs.coronalabs.com/api/type/String.html)._ The cryptographic key used for making the data more secure.  This is an array of 7 integers (any unspecified integers are defaulted to 0).
+_[Array](https://docs.coronalabs.com/api/type/Array.html)._ The cryptographic key used for making the data more secure.  This is an array of 7 integers (any unspecified integers are defaulted to 0).
 
 ##### hash_key <small>(required)</small>
 _[String](https://docs.coronalabs.com/api/type/String.html)._ The hash key used to encrypt the data.  This can be any string, and may be the same for different applications, but it is recommended that it is unique to the application.  The data may be made more secure by concatenating an application-specific string with a unique device-specific ID.
