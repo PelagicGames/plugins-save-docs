@@ -9,7 +9,7 @@
 
 ## Overview
 
-The save plugin can be used in your [Corona](https://coronalabs.com/products/corona-sdk/) project. It enables you to...
+The save plugin can be used in your [Corona](https://coronalabs.com/products/corona-sdk/) project. It enables you to securely save application data, such as game high scores and achievements progress, and persistent settings/configuration. The secure aspect is useful for preventing users from modifying save data in an attempt to cheat leaderboards/achievements, or unlock IAP for free.
 
 
 ## Syntax
