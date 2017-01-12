@@ -5,7 +5,7 @@
 | __Type__             | [function](http://docs.coronalabs.com/api/type/Function.html)
 | __Library__          | [save.*](Readme.markdown)
 | __Return value__     | nil
-| __Keywords__         | save
+| __Keywords__         | save, JSON
 | __See also__         | [Sample code](sample.lua), [save.load()](load.markdown)
 
 
