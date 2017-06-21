@@ -18,9 +18,15 @@ The save plugin can be used in your [Corona](https://coronalabs.com/products/cor
 
 ### Functions
 
+##### [save.delete()](delete.markdown)
+
+##### [save.getVersion()](getVersion.markdown)
+
 ##### [save.init()](init.markdown)
 
 ##### [save.load()](load.markdown)
+
+##### [save.rename()](rename.markdown)
 
 ##### [save.save()](save.markdown)
 
@@ -28,6 +34,8 @@ The save plugin can be used in your [Corona](https://coronalabs.com/products/cor
 ### Properties
 
 ##### [save.data](data.markdown)
+
+##### [save.NO_FILE_VERSION](NO_FILE_VERSION.markdown)
 
 
 ## Project Configuration

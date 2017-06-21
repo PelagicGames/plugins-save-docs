@@ -33,10 +33,11 @@ buttonBlue:setFillColor(0, 0, 1)
 -- The cryptographic key is an array of up to seven integers (defaulting to 0 where not specified)
 -- The hash key is any string
 save.init("example.json", 1, {36, 45, 92, 36, 19, 28, 5}, "bveiubv984nw0")
+print("Save file version: " .. save.getVersion())
 
 -- Load the save file
 -- If the save file has been tampered with it will be deleted
-save.load()
+print("Save file loaded: ", save.load())
 
 -- Create a utility function to set unspecified values
 local function setSaveDefaults()
